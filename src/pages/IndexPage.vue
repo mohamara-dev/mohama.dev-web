@@ -1,9 +1,8 @@
 <template>
 <page>
  <div class="row">
-<div class="col">
-  </div>
-<div class="col-4">
+
+<div class="col ">
     <q-card
      class="cursor-pointer"
      @click="goTo('https://meet.google.com/jrx-revz-unh')"
@@ -18,28 +17,10 @@
       </q-card-section>
     </q-card>
 </div>
-<div class="col">
+
   </div>
-  </div>
-  <div class="row">
-    <div class="col">
-  </div>
-    <div class="col-3 ">
-     <q-card
-     class="cursor-pointer"
-     @click="goTo('https://github.com/mohamara-dev')"
-     flat
-    >
-      <q-card-section>
-        <div class="text-h6">github</div>
-      </q-card-section>
-        <q-img src="~assets/github.webp" height="30vh"/>
-      <q-card-section>
-        <div class="text-h6"><a href="https://github.com/mohamara-dev">https://github.com/mohamara-dev</a></div>
-      </q-card-section>
-    </q-card>
-    </div>
-    <div class="col-3">
+    <div class="row">
+        <div class="col">
       <q-card
      class="cursor-pointer"
      @click="goTo('https://aparat.com/mohamara.dev')"
@@ -54,9 +35,28 @@
       </q-card-section>
     </q-card>
     </div>
-<div class="col">
-  </div>
     </div>
+  <div class="row">
+
+    <div class="col ">
+     <q-card
+     class="cursor-pointer"
+     @click="goTo('https://github.com/mohamara-dev')"
+     flat
+    >
+      <q-card-section>
+        <div class="text-h6">github</div>
+      </q-card-section>
+        <q-img src="~assets/github.webp" height="30vh"/>
+      <q-card-section>
+        <div class="text-h6"><a href="https://github.com/mohamara-dev">https://github.com/mohamara-dev</a></div>
+      </q-card-section>
+    </q-card>
+    </div>
+
+
+    </div>
+
     </page>
 </template>
 
